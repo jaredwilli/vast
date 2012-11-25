@@ -1,3 +1,11 @@
+/*
+var c = v(document.getElementById('canvas')),
+    ctx = c.ctx;
+ctx.moveTo(10, 10);
+ctx.lineTo(100, 100);
+ctx.stroke()
+*/
+
 (function(window) {
 	'use strict';
 
@@ -47,19 +55,12 @@
 	}
 
 	Vast.prototype = {
-		get canvas() {
-			return this._canvas;
-		},
-		set canvas(canvas) {
-			this._canvas = canvas;
-		},
-		get ctx() {
-			return this._ctx;
-		},
-		set ctx(ctx) {
-			this._ctx = ctx;
+		init: function() {
+			console.log(this);
+			return this;
 		}
 	};
+
 
 	// The wrapper
 	function V() {
