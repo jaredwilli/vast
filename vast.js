@@ -55,10 +55,197 @@ ctx.stroke()
 	}
 
 	Vast.prototype = {
-		init: function() {
-			console.log(this);
+		log: function() {
+			console.log(this.ctx);
 			return this;
+		},
+
+		arc: function() {
+
+		},
+		arcTo: function() {
+
+		},
+		circle: function() {
+
+		},
+
+		rect: function() {
+
+		},
+		rectangle: function() {
+
+		},
+		roundRectangle: function() {
+
+		},
+
+		moveTo: function() {
+
+		},
+		lineTo: function() {
+
+		},
+		line: function() {
+
+		},
+		lineCap: function() {
+
+		},
+		lineJoin: function() {
+
+		},
+		lineWidth: function() {
+
+		},
+
+		font: function() {
+
+		},
+		measureText: function() {
+
+		},
+		textAlign: function() {
+
+		},
+		textBaseline: function() {
+
+		},
+
+		bezierCurveTo: function() {
+
+		},
+		quadraticCurveTo: function() {
+
+		},
+		quadraticCurveToFixed: function() {
+
+		},
+
+		beginPath: function() {
+
+		},
+		closePath: function() {
+
+		},
+		clearRect: function() {
+
+		},
+
+		save: function() {
+
+		},
+		restore: function() {
+
+		},
+		reset: function() {
+
+		},
+
+		currentPos: function() {
+
+		},
+		isPointInPath: function() {
+
+		},
+		boundingBox: function() {
+
+		},
+		miterLimit: function() {
+
+		},
+
+		clip: function() {
+
+		},
+		rotate: function() {
+
+		},
+		scale: function() {
+
+		},
+		translate: function() {
+
+		},
+		transform: function() {
+
+		},
+		setTransform: function() {
+
+		},
+
+		globalAlpha: function() {
+
+		},
+		globalCompositeOperation: function() {
+
+		},
+
+		createImageData: function() {
+
+		},
+		putImageData: function() {
+
+		},
+		drawImage: function() {
+
+		},
+
+		createLinearGradient: function() {
+
+		},
+		createRadialGradient: function() {
+
+		},
+		createPattern: function() {
+
+		},
+
+		shadowBlur: function() {
+
+		},
+		shadowColor: function() {
+
+		},
+		shadowOffsetX: function() {
+
+		},
+		shadowOffsetY: function() {
+
+		},
+
+		fill: function() {
+
+		},
+		fillCircle: function() {
+
+		},
+		fillRect: function() {
+
+		},
+		fillStyle: function() {
+
+		},
+		fillText: function() {
+
+		},
+
+		stroke: function() {
+
+		},
+		strokeCircle: function() {
+
+		},
+		strokeRect: function() {
+
+		},
+		strokeStyle: function() {
+
+		},
+		strokeText: function() {
+
 		}
+
 	};
 
 
