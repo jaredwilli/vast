@@ -10,6 +10,45 @@
 	<title>Vast.js</title>
 
 	<meta name="description" content="Sample playground file for Vast.js">
+
+	<style type="text/css">
+	body {
+		background: #DBDBDB;
+		text-shadow: 1px 1px 0 hsla(200, 80%, 100%, 0.6);
+		font-family: arial;
+		font-size: 14px;
+	}
+	canvas {
+		background: #fff url('grid.gif') repeat;
+		float: left;
+
+		-webkit-box-shadow: 0 0 10px 0 #000;
+				box-shadow: 0 0 10px 0 #000;
+	}
+	h2 {
+		border-bottom: 2px solid #999;
+		display: inline-block;
+		position: relative;
+		left: 20px;
+		width: 340px;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	ul {
+		list-style: disc;
+		float: left;
+		width: 400px;
+		padding: 0 0 0 20px;
+		margin: 0;
+	}
+	ul li {
+		float: left;
+		display: inline;
+		width: 200px;
+		margin: 0;
+	}
+
+	</style>
 </head>
 
 <body>
@@ -17,11 +56,13 @@
 	<p>There is an 800x600 canvas here. You can play with Vast.js in browser console.</p>
 
 	<div id="container"></div>
-	<canvas id="canvas" width="800" height="600" style="background:url(grid.gif) repeat"></canvas>
+	<canvas id="canvas" width="800" height="600"></canvas>
 
 <!-- <script src="../firebug-lite-debug.js"></script> -->
 <!-- Specific to this page -->
 <script src="vast.js"></script>
+
+<h2>Methods</h2>
 
 <ul>
 	<li>arc</li>
@@ -66,7 +107,7 @@
 	<li>reset</li>
 	<li>restore</li>
 	<li>rotate</li>
-	<li>roundedRectangle/roundedRect</li>
+	<li>roundRectangle</li>
 	<li>save</li>
 	<li>scale</li>
 	<li>setTransform </li>

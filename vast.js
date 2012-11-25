@@ -44,7 +44,7 @@ ctx.stroke()
 				this.canvas = node;
 			}
 
-			this.ctx = this.canvas.getContext('2d');
+			this.ctx = this.canvas.ctx = this.canvas.getContext('2d');
 			this.canvas.width = this.canvas.width;
 			this.canvas.height = this.canvas.height;
 		}
